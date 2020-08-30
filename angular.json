@@ -24,6 +24,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/bootstrap4-light-blue/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hello-andular-tdd"
+    }
+  },
+  "defaultProject": "hello-andular-tdd",
+  "cli": {
+    "analytics": "5bb1bf35-585a-45c8-a2cf-4252b94e0d97"
+  }
 }
