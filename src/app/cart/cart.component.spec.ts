@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { CartComponent } from './cart.component';
 
 describe('CartComponent', () => {
@@ -22,4 +21,13 @@ describe('CartComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should call getItems', () => {
+    const fixture = TestBed.createComponent(CartComponent);
+    const app = fixture.debugElement.componentInstance;
+    expect(app.getItems).toEqual(app.ItemList);
+  })
+
 });
+
+

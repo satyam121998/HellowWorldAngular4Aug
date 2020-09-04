@@ -27,7 +27,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('hello-angular-tdd');
   });
 
-  // A deo function to just perform a unit testing
+  // A demo function to just perform a unit testing
   
   it('`should call add function', () => {
     let a:number = 10;

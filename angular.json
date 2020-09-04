@@ -79,6 +79,10 @@
             "browserTarget": "hello-andular-tdd:build"
           }
         },
+        "environmemts": {
+          "dev": "path/to/dev/env",
+          "prod": "path/to/prod/env"
+        },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
